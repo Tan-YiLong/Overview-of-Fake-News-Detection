@@ -2,6 +2,49 @@
 ![](resources/image8.gif)
 This is the summation of all the methods, datasets, and other survey mentioned in our survey 'The Paradigm Shift: A Comprehensive Survey on Large Vision Language Models for Multimodal Fake News Detection' :fire:. Any problems, please contact tanyilong@csuft.edu.cn. Any other interesting papers or codes are welcome. If you find this repository useful to your research or work, it is really appreciated to star this repository :heart:.
 
+<div  align="center"> 
+  <img src="fig/datasets.jpg" width=100% />
+</div>
+
+### Datasets
+| Dataset | Year | Link | Dataset | Year | Link|
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| Twitter15 | 2015 | [[Link]](https://github.com/majingCUHK/Rumor_RvNN?tab=readme-ov-file) | Twitter16  | 2016 | [[Link]](https://github.com/majingCUHK/Rumor_RvNN?tab=readme-ov-file) | 
+| PHEME | 2016 | [[code]](https://www.kaggle.com/datasets/usharengaraju/pheme-dataset) | LIAR | 2017 | [[Link]](https://www.kaggle.com/datasets/yuktibishambu/liar-dataset-labeled) |
+| FakeNewsNet | 2017 | [[Link]](https://github.com/KaiDMML/FakeNewsNet) | Weibo | 2017 | [[Link]](https://github.com/plw-study/MRML?tab=readme-ov-file) |
+| GoodNews | 2019 | [[Link]](https://github.com/furkanbiten/GoodNews) | FA-KES | 2019 | [[Link]](https://www.kaggle.com/datasets/mohamadalhasan) |
+| MultiFC | 2019 | [[Link]](https://huggingface.co/datasets/pszemraj/multi_fc) | Fakeddit | 2020 | [[Link]](https://github.com/entitize/fakeddit) | 
+| NeuralNews | 2020 | [[Link]](https://drive.google.com/file/d/1vD4DtyJOIjRzchPtCQu-KPrUjgTiWSmo/view) | MM-COVID | 2020 | [[Link]](https://drive.google.com/drive/folders/1gd4AvT6BxPRtymmNd9Z7ukyaVhae5s7U) |
+| CoAID | 2020 | [[Link]](https://github.com/cuilimeng/CoAID) | NewsCLIPpings | 2021 | [[Link]](https://github.com/g-luo/news_clippings?tab=readme-ov-file) |
+| COSMOS | 2021 | [[Link]](https://shivangi-aneja.github.io/projects/cosmos/) |  CHECKED | 2021 | [[Link]](https://github.com/cyang03/CHECKED/tree/master/dataset) |
+| Weibo21 | 2021| [[2021]](https://github.com/kennqiang/MDFEND-Weibo21) | CHEF | 2022 | [[Link]](https://github.com/THU-BPM/CHEF?tab=readme-ov-file) |
+| MC-Fake | 2022 | [[Link]](https://github.com/qwerfdsaplking/MC-Fake) | MuMiN | 2022 | [[Link]](https://mumin-dataset.github.io/) |
+| DGM<sup>4</sup> | 2023 | [[Link]](https://huggingface.co/datasets/rshaojimmy/DGM4) | IFND | 2023 | [[Link]](https://www.kaggle.com/datasets/sonalgarg174/ifnd-dataset) |
+| MR<sup>2</sup> | 2023 | [[Link]](https://github.com/THU-BPM/MR2) | Mocheg | 2023 | [[Link]](https://github.com/PLUM-Lab/Mocheg) |
+| MiRAGeNews | 2024 | [[Link]](https://huggingface.co/datasets/anson-huang/mirage-news) | HFFN | 2024 | - |
+| M<sup>3</sup>A | 2024 | [[Link]](https://github.com/FinalYou/M3A?tab=readme-ov-file) | VERITE | 2024 | [[Link]](https://github.com/stevejpapad/image-text-verification) |
+| MMFakeBench | 2025 | [[Link]](https://huggingface.co/datasets/liuxuannan/MMFakeBench) | DriftBench | 2025 | - |
+| MFND | 2025 | [[Link]](https://github.com/yunan-wang33/sdml) | MDAM<sup>3</sup>-DB | 2025 | - |
+
+
+## LVLMs for fake news detection
+| Model            | Supported Modality | Link                                                                 |
+|------------------|--------------------|----------------------------------------------------------------------|
+| MDAM3: A Misinformation Detection and Analysis Framework for Multitype Multimodal Media        | Text, Image, Audio, Video  | [Arxiv](https://dl.acm.org/doi/abs/10.1145/3696410.3714498)                            |
+| Collaborative Evolution: Multi-Round Learning Between Large and Small Language Models for Emergent Fake News Detection    |Text, Image       | [Arxiv](https://ojs.aaai.org/index.php/AAAI/article/view/32109) |
+| LEMMA: Towards LVLM-Enhanced Multimodal Misinformation Detection with External Knowledge Augmentation   | Text, Image         | [Arxiv](https://arxiv.org/abs/2402.11943) |
+| MiRAGeNews: Multimodal Realistic AI-Generated News Detection  | Text, Image       | [Arxiv](https://arxiv.org/abs/2410.09045)                |
+| MMFakeBench: A Mixed-Source Multimodal Misinformation Detection Benchmark for LVLMs | Text, Image        | [Arxiv](https://arxiv.org/abs/2406.08772)                  |
+| FKA-Owl: Advancing Multimodal Fake News Detection through Knowledge-Augmented LVLMs | Text, Image        | [Arxiv](https://dl.acm.org/doi/abs/10.1145/3664647.3681089)                |
+| FakeSV-VLM: Taming VLM for Detecting Fake Short-Video News via Progressive Mixture-Of-Experts Adapter     | Text ,Video        | [Arxiv](https://github.com/dvlab-research/LLaMA-VID)                 |
+| IMFND: In-context multimodal fake news detection with large visual-language models    | Text, Image        | [Arxiv](https://www.sciencedirect.com/science/article/abs/pii/S0950705125009268)                        |
+| Debunk and Infer: Multimodal Fake News Detection via Diffusion-Generated Evidence and LLM Reasoning   | Text ,Video        | [Arxiv](https://arxiv.org/abs/2506.21557)                |
+| TRUST-VL: An Explainable News Assistant for General Multimodal Misinformation Detection | Text, Image   | [Arxiv](https://arxiv.org/abs/2509.04448)                       |
+| E2LVLM:Evidence-Enhanced Large Vision-Language Model for Multimodal Out-of-Context Misinformation Detection   | Text, Image        | [Arxiv](https://arxiv.org/abs/2502.10455)                       |
+| Multimodal Misinformation Detection using Large Vision-Language Models  | Text, Image        | [Arxiv](https://dl.acm.org/doi/abs/10.1145/3627673.3679826)                           |
+| Fake News Detection and Manipulation Reasoning via Large Vision-Language Models       | Text, Image  | [Arxiv](https://arxiv.org/abs/2407.02042)                           |
+| Multi-MLLM Knowledge Distillation for Out-of-Context News Detection    | Text, Image | [Arxiv](https://arxiv.org/abs/2505.22517)                        |
+
 ## Milestone Papers
 |   Date  |       keywords       |      Institute     |                                                                                                        Paper                                                                                                       |
 |:-------:|:--------------------:|:------------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -184,50 +227,5 @@ This is the summation of all the methods, datasets, and other survey mentioned i
   - [InternLM-XComposer2-1.8|7B](https://huggingface.co/collections/internlm/internlm-xcomposer2-65b3706bf5d76208998e7477)
   - [InternVL-2|6|14|26](https://huggingface.co/collections/OpenGVLab/internvl-65b92d6be81c86166ca0dde4)
 
-## LVLMs for fake news detection
-| Model            | Supported Modality | Link                                                                 |
-|------------------|--------------------|----------------------------------------------------------------------|
-| MDAM3: A Misinformation Detection and Analysis Framework for Multitype Multimodal Media        | Text, Image, Audio, Video  | [Arxiv](https://dl.acm.org/doi/abs/10.1145/3696410.3714498)                            |
-| Collaborative Evolution: Multi-Round Learning Between Large and Small Language Models for Emergent Fake News Detection    |Text, Image       | [Arxiv](https://ojs.aaai.org/index.php/AAAI/article/view/32109) |
-| LEMMA: Towards LVLM-Enhanced Multimodal Misinformation Detection with External Knowledge Augmentation   | Text, Image         | [Arxiv](https://arxiv.org/abs/2402.11943) |
-| MiRAGeNews: Multimodal Realistic AI-Generated News Detection  | Text, Image       | [Arxiv](https://arxiv.org/abs/2410.09045)                |
-| MMFakeBench: A Mixed-Source Multimodal Misinformation Detection Benchmark for LVLMs | Text, Image        | [Arxiv](https://arxiv.org/abs/2406.08772)                  |
-| FKA-Owl: Advancing Multimodal Fake News Detection through Knowledge-Augmented LVLMs | Text, Image        | [Arxiv](https://dl.acm.org/doi/abs/10.1145/3664647.3681089)                |
-| FakeSV-VLM: Taming VLM for Detecting Fake Short-Video News via Progressive Mixture-Of-Experts Adapter     | Text ,Video        | [Arxiv](https://github.com/dvlab-research/LLaMA-VID)                 |
-| IMFND: In-context multimodal fake news detection with large visual-language models    | Text, Image        | [Arxiv](https://www.sciencedirect.com/science/article/abs/pii/S0950705125009268)                        |
-| Debunk and Infer: Multimodal Fake News Detection via Diffusion-Generated Evidence and LLM Reasoning   | Text ,Video        | [Arxiv](https://arxiv.org/abs/2506.21557)                |
-| TRUST-VL: An Explainable News Assistant for General Multimodal Misinformation Detection | Text, Image   | [Arxiv](https://arxiv.org/abs/2509.04448)                       |
-| E2LVLM:Evidence-Enhanced Large Vision-Language Model for Multimodal Out-of-Context Misinformation Detection   | Text, Image        | [Arxiv](https://arxiv.org/abs/2502.10455)                       |
-| Multimodal Misinformation Detection using Large Vision-Language Models  | Text, Image        | [Arxiv](https://dl.acm.org/doi/abs/10.1145/3627673.3679826)                           |
-| Fake News Detection and Manipulation Reasoning via Large Vision-Language Models       | Text, Image  | [Arxiv](https://arxiv.org/abs/2407.02042)                           |
-| Multi-MLLM Knowledge Distillation for Out-of-Context News Detection    | Text, Image | [Arxiv](https://arxiv.org/abs/2505.22517)                        |
 
-
-### Datasets
-| Dataset | Year | Link | Methods | Year | Link|
-| :----: | :----: | :----: | :----: | :----: | :----: |
-| Twitter15 | 2015 | [[Link]](https://github.com/majingCUHK/Rumor_RvNN?tab=readme-ov-file) | Twitter16  | 2016 | [[Link]](https://github.com/majingCUHK/Rumor_RvNN?tab=readme-ov-file) | 
-| PHEME | 2016 | [[code]](https://www.kaggle.com/datasets/usharengaraju/pheme-dataset) | LIAR | 2017 | [[Link]](https://www.kaggle.com/datasets/yuktibishambu/liar-dataset-labeled) |
-| FakeNewsNet | 2017 | [[Link]](https://github.com/KaiDMML/FakeNewsNet) | Weibo | 2017 | [[Link]](https://github.com/plw-study/MRML?tab=readme-ov-file) |
-| GoodNews | 2019 | [[Link]](https://github.com/furkanbiten/GoodNews) | FA-KES | 2019 | [[Link]](https://www.kaggle.com/datasets/mohamadalhasan) |
-| MultiFC | 2019 | [[Link]](https://huggingface.co/datasets/pszemraj/multi_fc) | Fakeddit | 2020 | [[Link]](https://github.com/entitize/fakeddit) | 
-| NeuralNews | 2020 | [[Link]](https://drive.google.com/file/d/1vD4DtyJOIjRzchPtCQu-KPrUjgTiWSmo/view) | MM-COVID | 2020 | [[Link]](https://drive.google.com/drive/folders/1gd4AvT6BxPRtymmNd9Z7ukyaVhae5s7U) |
-| CoAID | 2020 | [[Link]](https://github.com/cuilimeng/CoAID) | NewsCLIPpings | 2021 | [[Link]](https://github.com/g-luo/news_clippings?tab=readme-ov-file) |
-| COSMOS | 2021 | [[Link]](https://shivangi-aneja.github.io/projects/cosmos/) |  CHECKED | 2021 | [[Link]](https://github.com/cyang03/CHECKED/tree/master/dataset) |
-| Weibo21 | 2021| [[2021]](https://github.com/kennqiang/MDFEND-Weibo21) | CHEF | 2022 | [[Link]](https://github.com/THU-BPM/CHEF?tab=readme-ov-file) |
-| MC-Fake | 2022 | [[Link]](https://github.com/qwerfdsaplking/MC-Fake) | MuMiN | 2022 | [[Link]](https://mumin-dataset.github.io/) |
-| DGM<sup>4</sup> | 2023 | [[Link]](https://huggingface.co/datasets/rshaojimmy/DGM4) | IFND | 2023 | [[Link]](https://www.kaggle.com/datasets/sonalgarg174/ifnd-dataset) |
-| MR<sup>2</sup> | 2023 | [[Link]](https://github.com/THU-BPM/MR2) | Mocheg | 2023 | [[Link]](https://github.com/PLUM-Lab/Mocheg) |
-| MiRAGeNews | 2024 | [[Link]](https://huggingface.co/datasets/anson-huang/mirage-news) | HFFN | 2024 | - |
-| M<sup>3</sup>A | 2024 | [[Link]](https://github.com/FinalYou/M3A?tab=readme-ov-file) | VERITE | 2024 | [[Link]](https://github.com/stevejpapad/image-text-verification) |
-| MMFakeBench | 2025 | [[Link]](https://huggingface.co/datasets/liuxuannan/MMFakeBench) | DriftBench | 2025 | - |
-| MFND | 2025 | [[Link]](https://github.com/yunan-wang33/sdml) | MDAM<sup>3</sup>-DB | 2025 | - |
-
-
-## Acknowledgement :heart:
-Thanks to [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM).
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yuntaoshou/Awesome-Emotion-Reasoning&type=Date)](https://star-history.com/#yuntaoshou/Awesome-Emotion-Reasoning&Date)
 # Overview-of-Fake-News-Detection
