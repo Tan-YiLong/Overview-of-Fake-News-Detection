@@ -1,1 +1,233 @@
+# The Paradigm Shift: A Comprehensive Survey on Large Vision Language Models for Multimodal Fake News Detection
+![](resources/image8.gif)
+This is the summation of all the methods, datasets, and other survey mentioned in our survey 'The Paradigm Shift: A Comprehensive Survey on Large Vision Language Models for Multimodal Fake News Detection' :fire:. Any problems, please contact tanyilong@csuft.edu.cn. Any other interesting papers or codes are welcome. If you find this repository useful to your research or work, it is really appreciated to star this repository :heart:.
+
+## Milestone Papers
+|   Date  |       keywords       |      Institute     |                                                                                                        Paper                                                                                                       |
+|:-------:|:--------------------:|:------------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2017-06 |     Transformers     |       Google       | [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)                                                                                                                                                  |
+| 2018-06 |        GPT 1.0       |       OpenAI       | [Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)                                                                             |
+| 2018-10 |         BERT         |       Google       | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf)                                                                                          |
+| 2019-02 |        GPT 2.0       |       OpenAI       | [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)                                          |
+| 2019-10 |          T5          |       Google       | [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://jmlr.org/papers/v21/20-074.html)                                                                                       |
+| 2020-05 |        GPT 3.0       |       OpenAI       | [Language models are few-shot learners](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)                                                                                         |
+| 2021-01 |  Switch Transformers |       Google       | [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/pdf/2101.03961.pdf)                                                                               |
+| 2021-08 |         Codex        |       OpenAI       | [Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374.pdf)                                                                                                                           |
+| 2021-08 |   Foundation Models  |      Stanford      | [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258.pdf)                                                                                                                        |
+| 2021-09 |         FLAN         |       Google       | [Finetuned Language Models are Zero-Shot Learners](https://openreview.net/forum?id=gEZrGCozdqR)                                                                                                                    |
+| 2021-10 |          T0          | HuggingFace et al. | [Multitask Prompted Training Enables Zero-Shot Task Generalization](https://arxiv.org/abs/2110.08207)                                                                                                              |
+| 2022-01 |          COT         |       Google       | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903.pdf)                                                                                                      |
+| 2022-03 |      InstructGPT     |       OpenAI       | [Training language models to follow instructions with human feedback](https://arxiv.org/pdf/2203.02155.pdf)                                                                                                        |
+| 2022-10 |     Flan-T5/PaLM     |       Google       | [Scaling Instruction-Finetuned Language Models](https://arxiv.org/pdf/2210.11416.pdf)                                                                                                                              |
+| 2022-10 |       GLM-130B       |      Tsinghua      | [GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/pdf/2210.02414.pdf)                                                                                                                              |
+| 2022-11 |         HELM         |      Stanford      | [Holistic Evaluation of Language Models](https://arxiv.org/pdf/2211.09110.pdf)                                                                                                                                     |
+| 2022-11 |         BLOOM        |     BigScience     | [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](https://arxiv.org/pdf/2211.05100.pdf)                                                                                                            |
+| 2022-11 |       Galactica      |        Meta        | [Galactica: A Large Language Model for Science](https://arxiv.org/pdf/2211.09085.pdf)                                                                                                                              |
+| 2022-12 |        OPT-IML       |        Meta        | [OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization](https://arxiv.org/pdf/2212.12017)                                                                                   |
+| 2023-01 | Flan 2022 Collection |       Google       | [The Flan Collection: Designing Data and Methods for Effective Instruction Tuning](https://arxiv.org/pdf/2301.13688.pdf)                                                                                           |
+| 2023-02 |         LLaMA        |        Meta        | [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)                                                            |
+| 2023-02 |       Kosmos-1       |      Microsoft     | [Language Is Not All You Need: Aligning Perception with Language Models](https://arxiv.org/abs/2302.14045)                                                                                                         |
+| 2023-03 |        PaLM-E        |       Google       | [PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io)                                                                                                                                          |
+| 2023-03 |         GPT 4        |       OpenAI       | [GPT-4 Technical Report](https://openai.com/research/gpt-4)                                                                                                                                                        |
+| 2023-04 |        LLaVA        | UW–Madison&Microsoft | [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)                                                                                                |
+| 2023-04 |        Pythia        |  EleutherAI et al. | [Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling](https://arxiv.org/abs/2304.01373)                                                                                                |
+| 2023-05 |       Dromedary      |     CMU et al.     | [Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision](https://arxiv.org/abs/2305.03047)                                                                                 |
+| 2023-05 |        PaLM 2        |       Google       | [PaLM 2 Technical Report](https://ai.google/static/documents/palm2techreport.pdf)                                                                                                                                  |
+| 2023-05 |         RWKV         |       Bo Peng      | [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048)                                                                                                                                 |
+| 2023-05 |          DPO         |      Stanford      | [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290.pdf)                                                                                             |
+| 2023-05 |          ToT         |  Google&Princeton  | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/pdf/2305.10601.pdf)                                                                                                    |
+| 2023-07 |        LLaMA2       |        Meta        | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/pdf/2307.09288.pdf)                                                                                                                        |
+| 2023-10 |      Mistral 7B      |       Mistral      | [Mistral 7B](https://arxiv.org/pdf/2310.06825.pdf)                                                                                                                                                                 |
+| 2023-12 |         Mamba        |    CMU&Princeton   | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/pdf/2312.00752)                                                                                                               |
+| 2024-01 |         DeepSeek-v2        |      DeepSeek     | [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](https://arxiv.org/abs/2405.04434)                                                                                                                          |
+| 2024-02 |         OLMo        |      Ai2     | [OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838) |
+| 2024-05 |         Mamba2        |      CMU&Princeton     | [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://arxiv.org/abs/2405.21060)|
+| 2024-05 |         Llama3        |      Meta     | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) |
+| 2024-06 |         FineWeb         |      HuggingFace     | [The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale](https://arxiv.org/abs/2406.17557) |
+| 2024-09 |         OLMoE        |       Ai2     | [OLMoE: Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2409.02060) |
+| 2024-12 |         Qwen2.5        |      Alibaba     | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) |
+| 2024-12 |         DeepSeek-V3        |      DeepSeek     | [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437v1) |
+| 2025-01 |         DeepSeek-R1        |      DeepSeek     | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
+
+## Open LLM
+<summary>DeepSeek</summary>
+
+  - [DeepSeek-Math-7B](https://huggingface.co/collections/deepseek-ai/deepseek-math-65f2962739da11599e441681)
+  - [DeepSeek-Coder-1.3|6.7|7|33B](https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4)
+  - [DeepSeek-VL-1.3|7B](https://huggingface.co/collections/deepseek-ai/deepseek-vl-65f295948133d9cf92b706d3)
+  - [DeepSeek-MoE-16B](https://huggingface.co/collections/deepseek-ai/deepseek-moe-65f29679f5cf26fe063686bf)
+  - [DeepSeek-v2-236B-MoE](https://arxiv.org/abs/2405.04434)
+  - [DeepSeek-Coder-v2-16|236B-MOE](https://github.com/deepseek-ai/DeepSeek-Coder-V2)
+  - [DeepSeek-V2.5](https://huggingface.co/deepseek-ai/DeepSeek-V2.5)
+  - [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+  - [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
+  
+<summary>Alibaba</summary>
+
+  - [Qwen-1.8B|7B|14B|72B](https://huggingface.co/collections/Qwen/qwen-65c0e50c3f1ab89cb8704144)
+  - [Qwen1.5-0.5B|1.8B|4B|7B|14B|32B|72B|110B|MoE-A2.7B](https://qwenlm.github.io/blog/qwen1.5/)
+  - [Qwen2-0.5B|1.5B|7B|57B-A14B-MoE|72B](https://qwenlm.github.io/blog/qwen2)
+  - [Qwen2.5-0.5B|1.5B|3B|7B|14B|32B|72B](https://qwenlm.github.io/blog/qwen2.5/)
+  - [CodeQwen1.5-7B](https://qwenlm.github.io/blog/codeqwen1.5/)
+  - [Qwen2.5-Coder-1.5B|7B|32B](https://qwenlm.github.io/blog/qwen2.5-coder/)
+  - [Qwen2-Math-1.5B|7B|72B](https://qwenlm.github.io/blog/qwen2-math/)
+  - [Qwen2.5-Math-1.5B|7B|72B](https://qwenlm.github.io/blog/qwen2.5-math/)
+  - [Qwen-VL-7B](https://huggingface.co/Qwen/Qwen-VL)
+  - [Qwen2-VL-2B|7B|72B](https://qwenlm.github.io/blog/qwen2-vl/)
+  - [Qwen2-Audio-7B](https://qwenlm.github.io/blog/qwen2-audio/)
+  - [Qwen2.5-VL-3|7|72B](https://qwenlm.github.io/blog/qwen2.5-vl/)
+  - [Qwen2.5-1M-7|14B](https://qwenlm.github.io/blog/qwen2.5-1m/)
+
+<summary>Meta</summary>
+
+  - [Llama 3.2-1|3|11|90B](https://llama.meta.com/)
+  - [Llama 3.1-8|70|405B](https://llama.meta.com/)
+  - [Llama 3-8|70B](https://llama.meta.com/llama3/)
+  - [Llama 2-7|13|70B](https://llama.meta.com/llama2/)
+  - [Llama 1-7|13|33|65B](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
+  - [OPT-1.3|6.7|13|30|66B](https://arxiv.org/abs/2205.01068)
+
+<summary>Mistral AI</summary>
+
+  - [Codestral-7|22B](https://mistral.ai/news/codestral/)
+  - [Mistral-7B](https://mistral.ai/news/announcing-mistral-7b/)
+  - [Mixtral-8x7B](https://mistral.ai/news/mixtral-of-experts/)
+  - [Mixtral-8x22B](https://mistral.ai/news/mixtral-8x22b/)
+
+<summary>Google</summary>
+
+  - [Gemma2-9|27B](https://blog.google/technology/developers/google-gemma-2/)
+  - [Gemma-2|7B](https://blog.google/technology/developers/gemma-open-models/)
+  - [RecurrentGemma-2B](https://github.com/google-deepmind/recurrentgemma)
+  - [T5](https://arxiv.org/abs/1910.10683)
+
+<summary>Apple</summary>
+
+  - [OpenELM-1.1|3B](https://huggingface.co/apple/OpenELM)
+
+<summary>Microsoft</summary>
+
+  - [Phi1-1.3B](https://huggingface.co/microsoft/phi-1)
+  - [Phi2-2.7B](https://huggingface.co/microsoft/phi-2)
+  - [Phi3-3.8|7|14B](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct)
+
+<summary>AllenAI</summary>
+
+  - [OLMo-7B](https://huggingface.co/collections/allenai/olmo-suite-65aeaae8fe5b6b2122b46778)
+
+<summary>xAI</summary>
+
+  - [Grok-1-314B-MoE](https://x.ai/blog/grok-os)
+
+<summary>Cohere</summary>
+
+  - [Command R-35B](https://huggingface.co/CohereForAI/c4ai-command-r-v01)
+
+<summary>01-ai</summary>
+
+  - [Yi-34B](https://huggingface.co/collections/01-ai/yi-2023-11-663f3f19119ff712e176720f)
+  - [Yi1.5-6|9|34B](https://huggingface.co/collections/01-ai/yi-15-2024-05-663f3ecab5f815a3eaca7ca8)
+  - [Yi-VL-6B|34B](https://huggingface.co/collections/01-ai/yi-vl-663f557228538eae745769f3)
+
+<summary>Baichuan</summary>
+
+   - [Baichuan-7|13B](https://huggingface.co/baichuan-inc)
+   - [Baichuan2-7|13B](https://huggingface.co/baichuan-inc)
+
+
+<summary>Nvidia</summary>
+
+   - [Nemotron-4-340B](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct)
+
+<summary>BLOOM</summary>
+
+   - [BLOOMZ&mT0](https://huggingface.co/bigscience/bloomz)
+
+<summary>Zhipu AI</summary>
+
+   - [GLM-2|6|10|13|70B](https://huggingface.co/THUDM)
+   - [CogVLM2-19B](https://huggingface.co/collections/THUDM/cogvlm2-6645f36a29948b67dc4eef75)
+
+<summary>OpenBMB</summary>
+
+  - [MiniCPM-2B](https://huggingface.co/collections/openbmb/minicpm-2b-65d48bf958302b9fd25b698f)
+  - [OmniLLM-12B](https://huggingface.co/openbmb/OmniLMM-12B)
+  - [VisCPM-10B](https://huggingface.co/openbmb/VisCPM-Chat)
+  - [CPM-Bee-1|2|5|10B](https://huggingface.co/collections/openbmb/cpm-bee-65d491cc84fc93350d789361)
+
+<summary>ElutherAI</summary>
+
+  - [Pythia-1|1.4|2.8|6.9|12B](https://github.com/EleutherAI/pythia)
+
+<summary>Stability AI</summary>
+
+  - [StableLM-3B](https://huggingface.co/stabilityai/stablelm-3b-4e1t)
+  - [StableLM-v2-1.6B](https://huggingface.co/stabilityai/stablelm-2-1_6b)
+  - [StableLM-v2-12B](https://huggingface.co/stabilityai/stablelm-2-12b)
+  - [StableCode-3B](https://huggingface.co/collections/stabilityai/stable-code-64f9dfb4ebc8a1be0a3f7650)
+
+<summary>BigCode</summary>
+
+  - [StarCoder-1|3|7B](https://huggingface.co/collections/bigcode/%E2%AD%90-starcoder-64f9bd5740eb5daaeb81dbec)
+  - [StarCoder2-3|7|15B](https://huggingface.co/collections/bigcode/starcoder2-65de6da6e87db3383572be1a)
+
+
+<summary>DataBricks</summary>
+
+  - [MPT-7B](https://www.databricks.com/blog/mpt-7b)
+  - [DBRX-132B-MoE](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm)
+
+<summary>Shanghai AI Laboratory</summary>
+  
+  - [InternLM2-1.8|7|20B](https://huggingface.co/collections/internlm/internlm2-65b0ce04970888799707893c)
+  - [InternLM-Math-7B|20B](https://huggingface.co/collections/internlm/internlm2-math-65b0ce88bf7d3327d0a5ad9f)
+  - [InternLM-XComposer2-1.8|7B](https://huggingface.co/collections/internlm/internlm-xcomposer2-65b3706bf5d76208998e7477)
+  - [InternVL-2|6|14|26](https://huggingface.co/collections/OpenGVLab/internvl-65b92d6be81c86166ca0dde4)
+
+## LVLMs for fake news detection
+| Model            | Supported Modality | Link                                                                 |
+|------------------|--------------------|----------------------------------------------------------------------|
+| MDAM3: A Misinformation Detection and Analysis Framework for Multitype Multimodal Media        | Text, Image, Audio, Video  | [Arxiv](https://dl.acm.org/doi/abs/10.1145/3696410.3714498)                            |
+| Collaborative Evolution: Multi-Round Learning Between Large and Small Language Models for Emergent Fake News Detection    |Text, Image       | [Arxiv](https://ojs.aaai.org/index.php/AAAI/article/view/32109) |
+| LEMMA: Towards LVLM-Enhanced Multimodal Misinformation Detection with External Knowledge Augmentation   | Text, Image         | [Arxiv](https://arxiv.org/abs/2402.11943) |
+| MiRAGeNews: Multimodal Realistic AI-Generated News Detection  | Text, Image       | [Arxiv](https://arxiv.org/abs/2410.09045)                |
+| MMFakeBench: A Mixed-Source Multimodal Misinformation Detection Benchmark for LVLMs | Text, Image        | [Arxiv](https://arxiv.org/abs/2406.08772)                  |
+| FKA-Owl: Advancing Multimodal Fake News Detection through Knowledge-Augmented LVLMs | Text, Image        | [Arxiv](https://dl.acm.org/doi/abs/10.1145/3664647.3681089)                |
+| FakeSV-VLM: Taming VLM for Detecting Fake Short-Video News via Progressive Mixture-Of-Experts Adapter     | Text ,Video        | [Arxiv](https://github.com/dvlab-research/LLaMA-VID)                 |
+| IMFND: In-context multimodal fake news detection with large visual-language models    | Text, Image        | [Arxiv](https://www.sciencedirect.com/science/article/abs/pii/S0950705125009268)                        |
+| Debunk and Infer: Multimodal Fake News Detection via Diffusion-Generated Evidence and LLM Reasoning   | Text ,Video        | [Arxiv](https://arxiv.org/abs/2506.21557)                |
+| TRUST-VL: An Explainable News Assistant for General Multimodal Misinformation Detection | Text, Image   | [Arxiv](https://arxiv.org/abs/2509.04448)                       |
+| E2LVLM:Evidence-Enhanced Large Vision-Language Model for Multimodal Out-of-Context Misinformation Detection   | Text, Image        | [Arxiv](https://arxiv.org/abs/2502.10455)                       |
+| Multimodal Misinformation Detection using Large Vision-Language Models  | Text, Image        | [Arxiv](https://dl.acm.org/doi/abs/10.1145/3627673.3679826)                           |
+| Fake News Detection and Manipulation Reasoning via Large Vision-Language Models       | Text, Image  | [Arxiv](https://arxiv.org/abs/2407.02042)                           |
+| Multi-MLLM Knowledge Distillation for Out-of-Context News Detection    | Text, Image | [Arxiv](https://arxiv.org/abs/2505.22517)                        |
+
+
+### Datasets
+| Dataset | Year | Link | Methods | Year | Link|
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| Twitter15 | 2015 | [[Link]](https://github.com/majingCUHK/Rumor_RvNN?tab=readme-ov-file) | Twitter16  | 2016 | [[Link]](https://github.com/majingCUHK/Rumor_RvNN?tab=readme-ov-file) | 
+| PHEME | 2016 | [[code]](https://www.kaggle.com/datasets/usharengaraju/pheme-dataset) | LIAR | 2017 | [[Link]](https://www.kaggle.com/datasets/yuktibishambu/liar-dataset-labeled) |
+| FakeNewsNet | 2017 | [[Link]](https://github.com/KaiDMML/FakeNewsNet) | Weibo | 2017 | [[Link]](https://github.com/plw-study/MRML?tab=readme-ov-file) |
+| GoodNews | 2019 | [[Link]](https://github.com/furkanbiten/GoodNews) | FA-KES | 2019 | [[Link]](https://www.kaggle.com/datasets/mohamadalhasan) |
+| MultiFC | 2019 | [[Link]](https://huggingface.co/datasets/pszemraj/multi_fc) | Fakeddit | 2020 | [[Link]](https://github.com/entitize/fakeddit) | 
+| NeuralNews | 2020 | [[Link]](https://drive.google.com/file/d/1vD4DtyJOIjRzchPtCQu-KPrUjgTiWSmo/view) | MM-COVID | 2020 | [[Link]](https://drive.google.com/drive/folders/1gd4AvT6BxPRtymmNd9Z7ukyaVhae5s7U) |
+| CoAID | 2020 | [[Link]](https://github.com/cuilimeng/CoAID) | NewsCLIPpings | 2021 | [[Link]](https://github.com/g-luo/news_clippings?tab=readme-ov-file) |
+| COSMOS | 2021 | [[Link]](https://shivangi-aneja.github.io/projects/cosmos/) |  CHECKED | 2021 | [[Link]](https://github.com/cyang03/CHECKED/tree/master/dataset) |
+| Weibo21 | 2021| [[2021]](https://github.com/kennqiang/MDFEND-Weibo21) | CHEF | 2022 | [[Link]](https://github.com/THU-BPM/CHEF?tab=readme-ov-file) |
+| MC-Fake | 2022 | [[Link]](https://github.com/qwerfdsaplking/MC-Fake) | MuMiN | 2022 | [[Link]](https://mumin-dataset.github.io/) |
+| DGM<sup>4</sup> | 2023 | [[Link]](https://huggingface.co/datasets/rshaojimmy/DGM4) | IFND | 2023 | [[Link]](https://www.kaggle.com/datasets/sonalgarg174/ifnd-dataset) |
+| MR<sup>2</sup> | 2023 | [[Link]](https://github.com/THU-BPM/MR2) | Mocheg | 2023 | [[Link]](https://github.com/PLUM-Lab/Mocheg) |
+| MiRAGeNews | 2024 | [[Link]](https://huggingface.co/datasets/anson-huang/mirage-news) | HFFN | 2024 | - |
+| M<sup>3</sup>A | 2024 | [[Link]](https://github.com/FinalYou/M3A?tab=readme-ov-file) | VERITE | 2024 | [[Link]](https://github.com/stevejpapad/image-text-verification) |
+| MMFakeBench | 2025 | [[Link]](https://huggingface.co/datasets/liuxuannan/MMFakeBench) | DriftBench | 2025 | - |
+| MFND | 2025 | [[Link]](https://github.com/yunan-wang33/sdml) | MDAM<sup>3</sup>-DB | 2025 | - |
+
+
+## Acknowledgement :heart:
+Thanks to [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM).
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yuntaoshou/Awesome-Emotion-Reasoning&type=Date)](https://star-history.com/#yuntaoshou/Awesome-Emotion-Reasoning&Date)
 # Overview-of-Fake-News-Detection
