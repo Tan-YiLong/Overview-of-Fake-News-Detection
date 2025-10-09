@@ -26,6 +26,43 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 | MMFakeBench | 2025 | [[Link]](https://huggingface.co/datasets/liuxuannan/MMFakeBench) | DriftBench | 2025 | - |
 | MFND | 2025 | [[Link]](https://github.com/yunan-wang33/sdml) | MDAM<sup>3</sup>-DB | 2025 | - |
 
+## Comparison of Misinformation Datasets
+| Dataset       | Text (Rumor) | Repurposed | AI-generated | Text (Veracity) | PS-edited | AI-generated | Image/Text Repurposing | Image/Text Editing |
+| :------------ | :----------- | :--------- | :----------- | :-------------- | :-------- | :----------- | :--------------------- | :----------------- |
+| Twitter15     | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| Twitter16     | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| PHEME         | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| LIAR          | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| FakeNewsNet   | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| Weibo         | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| GoodNews      | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| FA-KES        | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| MultiFC       | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| Fakeddit      | ❌            | ❌          | ❌            | ✔️              | ✔️        | ❌            | ❌                      | ❌                  |
+| NeuralNews    | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| MM-COVID      | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| CoAID         | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| NewsCLIPpings | ❌            | ❌          | ❌            | ❌               | ❌         | ❌            | ✔️                     | ❌                  |
+| COSMOS        | ❌            | ❌          | ❌            | ❌               | ❌         | ❌            | ✔️                     | ❌                  |
+| CHECKED       | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| Weibo21       | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| CHEF          | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ✔️                     | ❌                  |
+| MC-Fake       | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ✔️                     | ❌                  |
+| MuMiN         | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ✔️                     | ❌                  |
+| DGM⁴          | ❌            | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ✔️                 |
+| IFND          | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ✔️                 |
+| MR²           | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| Mocheg        | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| MiRAGeNews    | ❌            | ✔️         | ✔️           | ✔️              | ❌         | ✔️           | ✔️                     | ✔️                 |
+| M³A           | ❌            | ✔️         | ✔️           | ✔️              | ✔️        | ✔️           | ✔️                     | ✔️                 |
+| HFFN          | ❌            | ✔️         | ✔️           | ✔️              | ❌         | ✔️           | ✔️                     | ✔️                 |
+| VERITE        | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| MFND          | ✔️           | ✔️         | ✔️           | ✔️              | ✔️        | ✔️           | ✔️                     | ✔️                 |
+| MMFakeBench   | ✔️           | ✔️         | ✔️           | ✔️              | ✔️        | ✔️           | ✔️                     | ✔️                 |
+| MDAM³-DB      | ✔️           | ✔️         | ✔️           | ✔️              | ✔️        | ✔️           | ✔️                     | ✔️                 |
+| DriftBench    | ✔️           | ✔️         | ✔️           | ✔️              | ✔️        | ✔️           | ✔️                     | ✔️                 |
+
+
 
 ## LVLMs for fake news detection
 | Model            | Supported Modality | Link                                                                 |
