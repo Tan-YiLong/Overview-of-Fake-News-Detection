@@ -21,10 +21,13 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 | MC-Fake | 2022 | [[Link]](https://github.com/qwerfdsaplking/MC-Fake) | MuMiN | 2022 | [[Link]](https://mumin-dataset.github.io/) |
 | DGM<sup>4</sup> | 2023 | [[Link]](https://huggingface.co/datasets/rshaojimmy/DGM4) | IFND | 2023 | [[Link]](https://www.kaggle.com/datasets/sonalgarg174/ifnd-dataset) |
 | MR<sup>2</sup> | 2023 | [[Link]](https://github.com/THU-BPM/MR2) | Mocheg | 2023 | [[Link]](https://github.com/PLUM-Lab/Mocheg) |
+| FakeSV | 2023 | [[Link]](https://github.com/ICTMCG/FakeSV) | FACTIFY 2 | 2023 | [[Link]](https://github.com/surya1701/Factify-2.0?tab=readme-ov-file) |
 | MiRAGeNews | 2024 | [[Link]](https://huggingface.co/datasets/anson-huang/mirage-news) | HFFN | 2024 | - |
 | M<sup>3</sup>A | 2024 | [[Link]](https://github.com/FinalYou/M3A?tab=readme-ov-file) | VERITE | 2024 | [[Link]](https://github.com/stevejpapad/image-text-verification) |
-| MMFakeBench | 2025 | [[Link]](https://huggingface.co/datasets/liuxuannan/MMFakeBench) | DriftBench | 2025 | - |
+| FakeTT | 2024 | [[Link]](https://github.com/ICTMCG/FakingRecipe/tree/main?tab=readme-ov-file) | MMFakeBench | 2025 | [[Link]](https://huggingface.co/datasets/liuxuannan/MMFakeBench) |
 | MFND | 2025 | [[Link]](https://github.com/yunan-wang33/sdml) | MDAM<sup>3</sup>-DB | 2025 | - |
+| DriftBench | 2025 | - | - | - | - |
+
 
 ## Comparison of Misinformation Datasets
 | Dataset       | Text (Rumor) | Repurposed | AI-generated | Text (Veracity) | PS-edited | AI-generated | Image/Text Repurposing | Image/Text Editing |
