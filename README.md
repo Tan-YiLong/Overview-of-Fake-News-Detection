@@ -3,7 +3,7 @@
 This is the summation of all the methods, datasets, and other survey mentioned in our survey 'The Paradigm Shift: A Comprehensive Survey on Large Vision Language Models for Multimodal Fake News Detection' :fire:. Any problems, please contact tanyilong@csuft.edu.cn. Any other interesting papers or codes are welcome. If you find this repository useful to your research or work, it is really appreciated to star this repository :heart:.
 
 <div  align="center"> 
-  <img src="fig/datasets.jpg" width=100% />
+  <img src="fig/datasets_tree.jpg" width=100% />
 </div>
 
 ### Datasets
