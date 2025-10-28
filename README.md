@@ -56,10 +56,13 @@ This is the summation of all the methods, datasets, and other survey mentioned i
 | IFND          | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ✔️                 |
 | MR²           | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
 | Mocheg        | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
-| MiRAGeNews    | ❌            | ✔️         | ✔️           | ✔️              | ❌         | ✔️           | ✔️                     | ✔️                 |
+| FakeSV        | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| FACTIFY 2     | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| MiRAGeNews    | ❌            | ✔️         | ✔️            | ✔️               | ❌         | ✔️            | ✔️                      | ✔️                 |
 | M³A           | ❌            | ✔️         | ✔️           | ✔️              | ✔️        | ✔️           | ✔️                     | ✔️                 |
 | HFFN          | ❌            | ✔️         | ✔️           | ✔️              | ❌         | ✔️           | ✔️                     | ✔️                 |
 | VERITE        | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
+| FakeTT        | ✔️           | ❌          | ❌            | ❌               | ❌         | ❌            | ❌                      | ❌                  |
 | MFND          | ✔️           | ✔️         | ✔️           | ✔️              | ✔️        | ✔️           | ✔️                     | ✔️                 |
 | MMFakeBench   | ✔️           | ✔️         | ✔️           | ✔️              | ✔️        | ✔️           | ✔️                     | ✔️                 |
 | MDAM³-DB      | ✔️           | ✔️         | ✔️           | ✔️              | ✔️        | ✔️           | ✔️                     | ✔️                 |
