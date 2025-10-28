@@ -274,4 +274,6 @@ This is the summation of all the methods, datasets, and other survey mentioned i
   - [InternVL-2|6|14|26](https://huggingface.co/collections/OpenGVLab/internvl-65b92d6be81c86166ca0dde4)
 
 
-# Overview-of-Fake-News-Detection
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Tan-YiLong/Overview-of-Fake-News-Detection&type=Date)](https://star-history.com/#Tan-YiLong/Overview-of-Fake-News-Detection&Date)
