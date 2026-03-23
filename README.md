@@ -6,6 +6,19 @@ This is the summation of all the methods, datasets, and other survey mentioned i
   <img src="fig/datasets_tree.jpg" width=100% />
 </div>
 
+### :books: Citation 
+
+If you find this work helpful for your research, please kindly consider citing our paper:
+```bib
+@article{ai2026paradigm,
+  title={The paradigm shift: A comprehensive survey on large vision language models for multimodal fake news detection},
+  author={Ai, Wei and Tan, Yilong and Shou, Yuntao and Meng, Tao and Chen, Haowen and He, Zhixiong and Li, Keqin},
+  journal={Computer Science Review},
+  year={2026},
+  publisher={Elsevier}
+}
+```
+
 ### Datasets
 | Dataset | Year | Link | Dataset | Year | Link|
 | :----: | :----: | :----: | :----: | :----: | :----: |
